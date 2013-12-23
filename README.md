@@ -3,6 +3,4 @@ airdisa.github.io
 
 @AirDisa GitHub Profile Website
 
-Code is generally FOSS open source.
-
-Content is copyright protected (kinda has to be).
+Code is FOSS unless otherwise cited. Content is copyright protected.
