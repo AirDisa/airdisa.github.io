@@ -3,7 +3,7 @@ layout:     post
 title:      Front Matter
 excerpt:    Jekyll templates their 'Front Matter' meta code.
 date:       2013-12-26 10:36:55
-published:  false
+published:  true
 category:   jekyll
 tags:       jekyll
 ---
@@ -14,13 +14,13 @@ People who don't code might ask why. Why code something from scratch like this i
 
 Learning to code takes perseverance and concentration. Front matter is simple enough that Jekyll really doesn't require much coding skill, so it can be learned quick or be the perfect platform to learn in order to get into coding without diving headfirst into Java. Java is an awesome language and Jekyll doesn't compare. Jekyll can get you started more easily.
 
-{% highlight YAML &}
+{% highlight YAML %}
 ---
-layout: default
+layout: post
 title: First Post
 excerpt: I learned Jekyll in one day. You can too!
 date: 2013-12-25 17:28:14
-published: false
+published: true
 category: jekyll
 tags: jekyll
 ---
