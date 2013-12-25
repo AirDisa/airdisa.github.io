@@ -15,7 +15,8 @@ print_hi('Disa')
 #=> prints 'Hi, Disa' to STDOUT.
 {% endhighlight %}
 
-This blog is hosted using free [GitHub Pages][gh-pages] and powered by templating (more info on [Jekyll][jekyll]). Open source code repositories that I'm actively working on or participating in can be found at my [GitHub repository][airdisa-repos].
+This blog is hosted using free [GitHub Pages][gh-pages] and powered by [Jekyll][jekyll] templating. Open source code repositories that I'm actively working on or participating in can be found at my [GitHub repository][airdisa-repos].
 
 [airdisa-repos]: https://github.com/airdisa
-[jekyll]:    http://jekyllrb.com
+[gh-pages]:      http://pages.github.com
+[jekyll]:        http://jekyllrb.com
