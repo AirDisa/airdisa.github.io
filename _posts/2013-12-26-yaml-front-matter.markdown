@@ -1,11 +1,11 @@
 ---
-layout: post
-title:  "YAML Front Matter"
-excerpt: "Jekyll templating with YAML 'Front Matter' meta code."
-date:   2013-12-26 10:36:55
-published: false
+layout:     post
+title:      YAML Front Matter
+excerpt:    Jekyll templating with YAML 'Front Matter' meta code.
+date:       2013-12-26 10:36:55
+published:  false
 categories: jekyll
-tags: YAML, front matter, jekyll
+tags:       YAML, front matter, jekyll
 ---
 
 The Jekyll templating system uses a plain text file interface for users to populate their website or power their blog with. It's very similar to something I built in Perl to do a little blogging at one of my domains. Since this is the one utilized for GitHub pages, it makes sense for me to spend my time learning the innards of this before continuing or scrapping altogether my own Perl templating system.

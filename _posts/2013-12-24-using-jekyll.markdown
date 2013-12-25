@@ -1,10 +1,10 @@
 ---
-layout: post
-title:  "Using Jekyll"
-excerpt: "New! Powered by Jekyll. Got GitHub going."
-date:   2013-12-24 21:14:36
+layout:     post
+title:      Using Jekyll
+excerpt:    New! Powered by Jekyll. Got GitHub going.
+date:       2013-12-24 21:14:36
 categories: jekyll
-tags: jekyll, embed
+tags:       jekyll, embed
 ---
 
 Powered by [Jekyll][jekyll] with neat code snippets:
