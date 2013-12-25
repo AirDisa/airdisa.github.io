@@ -1,17 +1,13 @@
-<html>
-  <head>
-    <title>Disa Johnson @AirDisa</title>
-  </head>
-  <body>
-    <p>Projects I'd be glad to have contributors and collaborators for include RailsSEO. I have some upcoming talks about SEO to developers and will pitch speaking on it at RailsConf in Chicago. Your work can get credited if it goes in. I'm fishing for FOSS ideas that can make SEO a snap afterthought.</a></p>
-    <p>My GitHub Page
-      <br><a href="http://pages.github.com">Instructions</a>
-      <br><a href="https://help.github.com/articles/creating-project-pages-manually">Branching</a>
-      <br><a href="http://makandracards.com/makandra/621-git-delete-a-branch-local-or-remote">Removing remote branches</a>
-      <br>To delete a local branch
-      <br>$ git branch -d the_local_branch
-      <br>To remove a remote branch (if you know what you are doing!)
-      <br>$ git push origin :the_remote_branch
-    </p>
-  </body>
-</html>
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
