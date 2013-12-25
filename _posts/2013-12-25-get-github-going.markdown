@@ -23,4 +23,4 @@ All you need is to know how to edit the following src attribute for the specific
 
 Repos are where the version control system really kicks into high gear in that a repo has the capability to branch, like a tree. This allows not only version control of your software, but collaboration and feature contributions from other developers. The idea is to write code, contribute to code repositories and documentation in order to populate your GitHub activity for personal growth. It's never too late to start and always a good idea to get going. Browse the [AirDisa repos &amp; source code][airdisa-github].
 
-[airdisa-github]: http://github.com/AirDisa
+[airdisa-github]:        http://github.com/AirDisa
