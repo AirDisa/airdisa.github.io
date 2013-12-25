@@ -1,0 +1,19 @@
+---
+layout:   default
+title:    Jekyll Mini Mentor by Disa Johnson @AirDisa
+excerpt:  Disa Johnson @AirDisa principly concerning software engineering ideas.
+category: jekyll
+tags:     jekyll
+---
+
+<div id="home">
+  <h1>Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% capture category %}{{ post.category }}{% endcapture %}
+        {% if category == 'jekyll' %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><br />{{ post.excerpt }}</li>
+        {% endif %}
+    {% endfor %}
+  </ul>
+</div>

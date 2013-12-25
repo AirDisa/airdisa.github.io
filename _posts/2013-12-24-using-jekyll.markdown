@@ -3,8 +3,9 @@ layout:     post
 title:      Using Jekyll
 excerpt:    New! Powered by Jekyll. Got GitHub going.
 date:       2013-12-24 21:14:36
+published:  true
 category:   jekyll
-tags:       jekyll, syntax, embed
+tags:       jekyll
 ---
 
 Powered by [Jekyll][jekyll] with neat code snippets:
@@ -17,6 +18,4 @@ print_hi('Disa')
 #=> prints 'Hi, Disa' to STDOUT.
 {% endhighlight %}
 
-<p class="meta">Tags: {{ page.tags }}</p>
-
-[jekyll]:        http://jekyllrb.com
+[jekyll]: http://jekyllrb.com
