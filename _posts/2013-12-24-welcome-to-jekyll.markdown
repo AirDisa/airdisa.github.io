@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using Jekyll {{site.name}}"
+title:  "Using Jekyll "{{site.name}}
 date:   2013-12-24 21:14:36
 categories: jekyll update
 ---
