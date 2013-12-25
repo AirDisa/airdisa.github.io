@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Using Jekyll"
+excerpt: "New! Powered by Jekyll."
 date:   2013-12-24 21:14:36
 categories: jekyll update
 ---
 
-New! Powered by [Jekyll][jekyll] templating. Jekyll supports code snippets:
+Powered by [Jekyll][jekyll] with neat code snippets:
 
 {% highlight ruby %}
 def print_hi(name)
