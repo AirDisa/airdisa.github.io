@@ -9,9 +9,8 @@ tags:       github, gist, repo, embed, mentor
 
 The best time to establish version control is beginning before the first version. Register with GitHub or refresh you familiarity with GitHub if you are already registered. GitHub is more than version control and it's where the developer community hangs out. GitHub is like the skateboard park for developers with company scouts looking for talent. No time like the present. Now's the time. Go get GitHub going.
 
-Useful definitions:
 <ul>
-  <li>GitHub: A version tracking system and much more.</li>
+  <li>GitHub: A version tracking system with collaboration features.</li>
   <li>Gist: A file, or group of files at GitHub to share or demonstrate code.</li>
   <li>Repo: A central code repository that can be branched for larger collaboration.</li>
 </ul>
