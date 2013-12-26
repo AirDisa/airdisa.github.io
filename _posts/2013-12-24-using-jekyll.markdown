@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Using Jekyll
+title:      Using Jekyll by Disa Johnson @AirDisa
 excerpt:    New! Powered by Jekyll. Got GitHub going.
 date:       2013-12-24 21:14:36
 published:  true

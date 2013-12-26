@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Get GitHub Going
+title:      Get GitHub Going by Disa Johnson @AirDisa
 excerpt:    Best time to establish version control.
 date:       2013-12-25 06:27:57
 published:  true
