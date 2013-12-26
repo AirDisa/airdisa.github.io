@@ -2,12 +2,12 @@
 layout:   default
 title:    Disa Johnson @AirDisa
 excerpt:  Disa Johnson @AirDisa mini mentor blog (principly concerning software engineering ideas).
-category: index
+category: all
 tags:     github, jekyll, javascript, ruby, perl
 ---
 
 <div id="home">
-  <h1>Posts</h1>
+  <h1>All Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><br />{{ post.excerpt }}</li>
