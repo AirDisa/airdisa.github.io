@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Front Matter by Disa Johnson @AirDisa
+title:      Front Matter
 excerpt:    Jekyll templates their 'Front Matter' meta code.
 date:       2013-12-26 10:36:55
 published:  true
