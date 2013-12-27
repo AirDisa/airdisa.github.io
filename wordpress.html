@@ -11,7 +11,7 @@ tags:     wordpress
   <ul class="posts">
     {% for post in site.posts %}
       {% capture category %}{{ post.category }}{% endcapture %}
-        {% if category == 'github' %}
+        {% if category == 'wordpress' %}
           <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><br />{{ post.excerpt }}</li>
         {% endif %}
     {% endfor %}
