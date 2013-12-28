@@ -16,4 +16,4 @@ I cringe at code that relies on other code. I have experienced problems, sometim
 
 I will dabble in one whose only requirement is a Gem that I already know: Nokogiri.
 
-jekyll-plugins]: http://jekyllrb.com/docs/plugins/
+[jekyll-plugins]: http://jekyllrb.com/docs/plugins/
