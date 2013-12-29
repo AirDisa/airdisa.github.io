@@ -2,7 +2,7 @@
 layout:    post
 title:     Wordpress Horrors
 excerpt:   What is meant by Wordpress horrors?
-date:      2013-12-27 15:32:30
+date:      2013-12-29 15:32:30
 published: true
 category:  wordpress
 tags:      wordpress
