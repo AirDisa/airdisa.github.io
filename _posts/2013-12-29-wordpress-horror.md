@@ -15,7 +15,7 @@ Here are some nits that I will complain about Wordpress. Unless I install it on 
 Whenever I code a theme or plugin and Wordpress is not installed, I quickly pay a time toll tax. That is, editing code using built-in fields only take you so far. Full-blown theme or plugin design is best done with a running copy of Wordpress. I really dislike this, it makes me irritable. I reserve my machine for other projects including running my business. I might install Wordpress in a gated cloud somewhere, if work warrants it. The point is I do not *want* to install that nasty thing anywhere.
 
 {% highlight html %}
-<div class="entry">
+<div class=&quot;entry&quot;>
   <?php the_content(); ?>
 </div>
 {% endhighlight %}
