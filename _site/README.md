@@ -32,13 +32,6 @@ Directory Structure
       2013-12-24.md   # Initial post, title removed here for brevity
       2014-01-01.md   # Post for 2014, initially created as a draft
 
-    _config.yml       # Jekyll options
-    github.html       # Github topic category index
-    index.html        # Index, now paginated
-    jekyll.html       # Jekyll topic category index
-    LICENSE           # Copyright status of FOSS
-    wordpress.html    # Wordpress topic category index
-
     _site/             
       css/            # Generated CSS files by Jekyll build
       github/         # Generated topic directory by Jekyll build
@@ -46,16 +39,27 @@ Directory Structure
       pg/             # Pagination folder, organized into page number directories
       wordpress/      # Generated topic directory by Jekyll build              
 
+    css/
+      main.css        # Sitewide CSS
+      syntax.css      # Code snippet highlight Pygments markdown CSS
+
+    _config.yml       # Jekyll options
+    github.html       # Github topic category index
+    index.html        # Index, now paginated
+    jekyll.html       # Jekyll topic category index
+    LICENSE           # Copyright status of FOSS
+    wordpress.html    # Wordpress topic category index
+
 
 Install Jekyll
 --------------
-
-* Requires Ruby
 
     ~ $ gem install jekyll
     ~ $ jekyll new my-awesome-site
     ~ $ cd my-awesome-site
     ~/my-awesome-site $ jekyll serve # => Now browse to http://localhost:4000
+
+* Requires Ruby
 
 Jekyll Build
 ------------
