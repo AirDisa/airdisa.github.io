@@ -18,7 +18,7 @@ Whenever I code a theme or plugin and Wordpress is not installed, I quickly pay 
 <?php the_content( $more_link_text, $stripteaser ); ?>
 {% endhighlight %}
 
-[Wordpress documentation][codex] says this has to be run in [The Loop][the_loop]. Seriously? This is where a picture materializes for me that Wordpress is a maze of loops, includes and conduits for the blog, its themes and plugins with daft PHP methods names like the content and stripteaser params which must be used in a loop where you expect post excerpts because everything is disoriented context-oriented striptease catcalls in the loop. Memorize it but it sure is nice to be blissfully unaware.
+[Wordpress documentation][codex] says this has to be run in [The Loop][the_loop]. Seriously? This is where a picture materializes for me that Wordpress is a maze of loops, includes of PHP containing methods like content, stripteaser params to be used in The Loop where you expect post excerpts because everything is a disorienting context-oriented striptease act in the loop. Memorize it if you must, but it sure is nice to be blissfully unaware of such horrors.
 
 That is only where decision horror begins. Loops and includes from a maze of directories separated between core code, theme code and plugin code quickly overwhelms any better sense of organization. There is always rationale (excuses!) behind the myriad hooks. Jekyll is a simple thing of beauty compared. Rogue galleries of criminally-coded plugins and themes giddy people innocently install too easily, a galaxy of veritable malware. Find hidden base64 encoded links to casinos!
 
