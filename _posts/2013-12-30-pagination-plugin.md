@@ -3,7 +3,7 @@ layout:    post
 title:     Jekyll Pagination Plugin
 excerpt:   Writing about implementing pagination on index, is going to require pagination for cat Jekyll!
 date:      2013-12-30 19:55:53
-published: false
+published: true
 category:  jekyll
 tags:      jekyll
 ---
