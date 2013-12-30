@@ -14,6 +14,17 @@ Here are some nits that I will complain about Wordpress. Unless I install it on 
 
 Whenever I code a theme or plugin and Wordpress is not installed, I quickly pay a time toll tax. That is, editing code using built-in fields only take you so far. Full-blown theme or plugin design is best done with a running copy of Wordpress. I really dislike this, it makes me irritable. I reserve my machine for other projects including running my business. I might install Wordpress in a gated cloud somewhere, if work warrants it. The point is I do not *want* to install that nasty thing anywhere.
 
+{% highlight php %}
+<div class="entry">
+  <?php the_content(); ?>
+</div>
+{% endhighlight %}
+
+The content? A page? A post? The site? A sidebar widget? Some, none, one or all of these? [Wordpress documentation][codex] says this has to be run in [The Loop][the_loop]. Now is where the picture materializes that Wordpress is a maze of loops, includes and conduits for themes and plugins, PHP methods named the_content() which must be used in a loop only where you expect post excerpts. This is a fine circus once you memorize it. Commit it to memory but it sure is nice to be blissfully unaware.
+
 That is only where decision horror begins. Loops and includes from a maze of directories separated between core code, theme code and plugin code quickly overwhelms any better sense of organization. There is always rationale (excuses!) behind the myriad hooks. Jekyll is a simple thing of beauty compared. Rogue galleries of criminally-coded plugins and themes giddy people innocently install too easily, a galaxy of veritable malware. Find hidden base64 encoded links to casinos!
 
 Exercising caution is fine, except it steals your time, the life-force. It takes time to memorize the mazes to know your way around Wordpress. Once you become known for Wordpress, forever will it dominate your destiny. Watch out if you do not want to be known for handling it well unless you are prepared to take the work. There is plenty to do too, plenty of horrors, nightmares for the unsuspecting. Wordpress horrors is why there is tons of Wordpress work. That is what is meant by my headline.
+
+[codex]: http://codex.wordpress.org
+[the_loop]: http://codex.wordpress.org/The_Loop
