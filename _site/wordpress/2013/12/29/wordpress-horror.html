@@ -33,12 +33,10 @@
 
 <p>Whenever I code a theme or plugin and Wordpress is not installed, I quickly pay a time toll tax. That is, editing code using built-in fields only take you so far. Full-blown theme or plugin design is best done with a running copy of Wordpress. I really dislike this, it makes me irritable. I reserve my machine for other projects including running my business. I might install Wordpress in a gated cloud somewhere, if work warrants it. The point is I do not <em>want</em> to install that nasty thing anywhere.</p>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&amp;quot;entry&amp;quot;</span><span class="nt">&gt;</span>
-  <span class="cp">&lt;?php the_content(); ?&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
+<div class="highlight"><pre><code class="php"><span class="cp">&lt;?php</span> <span class="nx">the_content</span><span class="p">(</span> <span class="nv">$more_link_text</span><span class="p">,</span> <span class="nv">$stripteaser</span> <span class="p">);</span> <span class="cp">?&gt;</span><span class="x"></span>
 </code></pre></div>
 
-<p>A page? A post? The site? A sidebar widget? Is the<em>content() some, none, one or all of these? <a href="http://codex.wordpress.org">Wordpress documentation</a> says this has to be run in <a href="http://codex.wordpress.org/The_Loop">The Loop</a>. Now is where the picture materializes that Wordpress is a maze of loops, includes and conduits for themes and plugins, PHP methods named the</em>content() which must be used in a loop only where you expect post excerpts. This is a fine circus once you memorize it. Commit it to memory but it sure is nice to be blissfully unaware.</p>
+<p><a href="http://codex.wordpress.org/the_content">Wordpress documentation</a> says this has to be run in <a href="http://codex.wordpress.org/The_Loop">The Loop</a>. Seriously? This is where a picture materializes for me that Wordpress is a maze of loops, includes and conduits for the blog, its themes and plugins with daft PHP methods names like the content and stripteaser params which must be used in a loop where you expect post excerpts because everything is disoriented context-oriented striptease catcalls in the loop. Memorize it but it sure is nice to be blissfully unaware.</p>
 
 <p>That is only where decision horror begins. Loops and includes from a maze of directories separated between core code, theme code and plugin code quickly overwhelms any better sense of organization. There is always rationale (excuses!) behind the myriad hooks. Jekyll is a simple thing of beauty compared. Rogue galleries of criminally-coded plugins and themes giddy people innocently install too easily, a galaxy of veritable malware. Find hidden base64 encoded links to casinos!</p>
 
