@@ -1,7 +1,7 @@
 ---
 layout:    post
 title:     Jekyll Pagination Plugin
-excerpt:   Writing about implementing pagination is going to require it for Jekyll!
+excerpt:   The act of writing about pagination, requires it!
 date:      2013-12-30 19:55:53
 published: true
 category:  jekyll
