@@ -8,6 +8,8 @@ category:  wordpress
 tags:      wordpress
 ---
 
+Somewhere in there I better add CSS and if feeling ambitious, Sassy Foundation 5.
+
 I have written before about Wordpress. It can seem as though dealing in the intricacies, unless you are solely a writer, can be en exercise in sheer madness. The loops, the includes the permissions hierarchy and all the little nits can take the life-force right out of you with each ticking second of the time clock. As a developer, blogging is not very useful except by way of being useful in other online work areas. Blogging can serve to get you noticed with the possibility of paying code work. This is why a task starting Devbootcamp is start a Tumblr.
 
 With so many platforms out there, it can be dizzying to choose from among them or to choose them all to dabble and learn (as I did). I have written in MoveableType and all the rest. MoveableType is like Marlon Brando regretting he could have been a contender, Blogger is like a Yugo and Wordpress is the circus. To me, given these analogies I just made, Tumblr is probably like a Shakespeare play company. Perhaps I think of that way because it funnels user intent better and still provides developers enough flexibility to satisfy the creative itch for code.
