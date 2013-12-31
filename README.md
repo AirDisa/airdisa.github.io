@@ -10,7 +10,7 @@ Changelog
 ---------
 
 * 2013-12-30 Implemented \_drafts
-* 2013-12-29 Added pagination
+* 2013-12-29 Implemented pagination
 * 2013-12-24 Initial commit
 
 Code is FOSS unless otherwise cited. Content is protected.
@@ -18,11 +18,11 @@ Code is FOSS unless otherwise cited. Content is protected.
 What's inside?
 --------------
 
-* Ruby
 * Jekyll
 * Redcarpet
 * YAML
 * JSON
+* Ruby
 
 Directory Structure
 ------------------
@@ -58,24 +58,27 @@ Install Jekyll
 --------------
 
 ~ $ gem install jekyll
-~ $ jekyll new gh-pages
-~ $ cd gh-pages
-~ $ /gh-pages
-~ $ jekyll serve      # => Now browse to http://localhost:3000
 
-* Port: 3000 option in \_config as it is the only port I allow
+~ $ jekyll new gh-pages
+
+~ $ cd gh-pages
+
+~ $ vim               # Use sudo vim if needed
+
 
 Jekyll Build
 ------------
 
-~ $ jekyll build      # Regenerate website flat files, use --drafts option to add those
+~ $ jekyll build      # Regenerate website files (try --drafts option for preview)
 
 Run the server
 
-~ $ jekyll server     # Find excellent server options in documentation
+~ $ jekyll server     # => Browse http://localhost:3000
+
 
 As hosted by GitHub
+-------------------
 
-Visit: [http://airdisa.github.io](http://airdisa.github.io)
+Browse: [http://airdisa.github.io](http://airdisa.github.io)
 
 Copyright 2013-2014 Disa Johnson. All rights reserved.
