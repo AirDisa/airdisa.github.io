@@ -1,7 +1,7 @@
 ---
 layout:    post
 title:     Wordpress Horrors
-excerpt:   What is meant by Wordpress horrors?
+excerpt:   What are my Wordpress horrors?
 date:      2013-12-29 15:32:30
 published: true
 category:  wordpress
@@ -18,7 +18,7 @@ I try to reserve my machine for running my business. It makes me irritable to ru
 <?php the_content( $more_link_text, $stripteaser ); ?>
 {% endhighlight %}
 
-[Wordpress documentation][codex] says the content method has to run in [The Loop][the_loop]. This is where Wordpress mazes and loops materialize. PHP methods named the content, params named stripteaser running in The Loop, you can only use this stuff where you expect post excerpts because as global sounding as the content is, it is purely a red light district striptease just for those contents in the loop.
+[Wordpress documentation][codex] says the content method has to run in [The Loop][the_loop]. This is where Wordpress mazes and loops materialize. PHP methods named the content, params named stripteaser running in The Loop, you can only use this stuff where you expect post excerpts because as global sounding as the content is, it is purely a red light district striptease just for those contents in the loop. Madness ensues.
 
 Memorize this maze if you must, but it sure is nice to be blissfully unaware of such horror. Any sense of organization can get overwhelmed by the madness of it. There is rationale (excuses!) behind everything but Jekyll is a simple thing of beauty compared. Let us not forget the rogue gallery of criminally-coded themes and plugins. Instant base64 encoded links to casinos!
 
