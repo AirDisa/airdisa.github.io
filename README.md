@@ -27,6 +27,9 @@ What's inside?
 Directory Structure
 ------------------
 
+    _drafts/
+      2014-12-31      # Drafts staged for preview
+
     _layouts/         
       default.html    # Default layout template
       post.html       # Post layout template
@@ -63,18 +66,19 @@ Install Jekyll
 
 ~ $ cd gh-pages
 
-~ $ vim               # Use sudo vim if needed
+~ $ vim # => Use sudo vim if needed
 
 
 Jekyll Build
 ------------
 
-~ $ jekyll build      # Regenerate website files (try --drafts option for preview)
+~ $ jekyll build # => Regenerate website files
 
 Run the server
 
 ~ $ jekyll server     # => Browse http://localhost:3000
 
+~ $ jekyll server --drafts (option for preview)
 
 As hosted by GitHub
 -------------------
