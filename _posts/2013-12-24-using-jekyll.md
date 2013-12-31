@@ -8,7 +8,7 @@ category:   jekyll
 tags:       jekyll
 ---
 
-Powered by [Jekyll][jekyll] with neat code snippets:
+New! Powered by [Jekyll][jekyll] with neat code snippets:
 
 {% highlight ruby %}
 def print_hi(name)

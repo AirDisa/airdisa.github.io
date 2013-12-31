@@ -1,17 +1,19 @@
 ---
 layout:    post
 title:     Jekyll Pagination Plugin
-excerpt:   Writing about implementing pagination on index, is going to require pagination for cat Jekyll!
+excerpt:   Writing about implementing pagination is going to require it for Jekyll!
 date:      2013-12-30 19:55:53
 published: true
 category:  jekyll
 tags:      jekyll
 ---
 
-Determined to add content here, I took note of the [pagination][pagination] feature built right in to Jekyll. I had put this aside until now, for reasons of busyness, but now I have taken it upon myself to actually implement the pagination scheme. This helps me get the feel for Jekyll better before I get to doing something more complicated. I know it takes a great effort to contribute on a daily basis and failure is not unknown to me or those with dead blogs laying around.
+Determined to add content here, I previously took note of the [pagination][pagination] feature built right in to Jekyll. I put pagination aside until now, for reasons of busyness. I have finally taken it upon myself to implement the pagination code on the index page. This has helped me get the feel for Jekyll better as I get to starting something more complicated.
 
-While looking at plugins I might like to install, or roll my own by writing one from scratch, one of the things I stumbled upon reading in the documentation is a flat file data store. How cool is that? While seeing lots of reference to YAML, I had not really delved too deeply in it for the simple matter of time. I know learning it is brainlessly fast, and I therefore will put something like that off until implementation time, just like Jekyll itself.
+It is enough to keep me busy learning fun stuff, while not falling behind on commercial coding work. I could only add pagination to index in the short time I took for a break before getting back to paying code. Perhaps I will add pagination to the Jekyll index, since writing this little piece tallies enough posts.
 
-So all this is enough to keep me busy learning fun stuff while trying to not fall behind on commercial coding work. I have become caught up enough in it that I could only add pagination in the short time I took for a break before getting back to working on paying code. So the plan is to dabble with writing a plugin, potentially using YAML data constructs and enjoy watching the pagination at work the more I write. Somewhere in there I better add CSS, maybe Foundation 5 on SASS.
+The plan for what is next, after pagination is to dabble with writing a simple Ruby plugin, potentially using YAML data constructs. While looking at pagination one of the things I stumbled upon was flat file YAML data store. Having seen lots of reference to YAML, I had not delved too deeply looking at it for the simple matter of time.
+
+I know learning YAML is going to be brainlessly fast. I often put something like YAML off until implementation time, just like I did Jekyll itself. Looking at something like YAML is, in effect, learning YAML by osmosis. Memorizing enough to write it without referring to documentation is all it that is left.
 
 [pagination]: http://jekyllrb.com/docs/pagination/

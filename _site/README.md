@@ -1,25 +1,28 @@
 airdisa.github.io
 =================
 
-Stable: 0.2.0
+Stable: 0.3.0
 -------------
 
-@AirDisa GitHub Jekyll Website
+@AirDisa Jekyll Website for GitHub.io
 
 Changelog
 ---------
 
-* Added pagination 2013-12-29
-* Initial commit 2013-12-24
+* 2013-12-30 Implemented \_drafts
+* 2013-12-29 Added pagination
+* 2013-12-24 Initial commit
 
 Code is FOSS unless otherwise cited. Content is protected.
 
 What's inside?
 --------------
 
+* Ruby
 * Jekyll
 * Redcarpet
 * YAML
+* JSON
 
 Directory Structure
 ------------------
@@ -54,21 +57,22 @@ Directory Structure
 Install Jekyll
 --------------
 
-    ~ $ gem install jekyll
-    ~ $ jekyll new my-awesome-site
-    ~ $ cd my-awesome-site
-    ~/my-awesome-site $ jekyll serve # => Now browse to http://localhost:4000
+~ $ gem install jekyll
+~ $ jekyll new gh-pages
+~ $ cd gh-pages
+~ $ /gh-pages
+~ $ jekyll serve      # => Now browse to http://localhost:3000
 
-* Requires Ruby
+* Port: 3000 option in \_config as it is the only port I allow
 
 Jekyll Build
 ------------
 
-    ~ $ jekyll build    # Regenerate website flat files
+~ $ jekyll build      # Regenerate website flat files, use --drafts option to add those
 
 Run the server
 
-    ~ $ jekyll server   # Local server option
+~ $ jekyll server     # Find excellent server options in documentation
 
 As hosted by GitHub
 

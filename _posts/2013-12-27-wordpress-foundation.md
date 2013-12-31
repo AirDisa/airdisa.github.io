@@ -12,6 +12,6 @@ If you are going to get into development, you are bound to run into Wordpress. W
 
 Wordpress means mazes of PHP includes and loops. At the time of this writing, the newest version contains fewer horrors than previous versions but plenty of horror nonetheless. For one thing the work flow can be pretty messed up, unless you want to deal with installing Wordpress on your own machine. I am not a big fan of the idea, but understand why those who do that, do that. I admit to have resorting to it though I totally prefer to hotfix.
 
-Foundation 5, a top responsive framework, can shoehorn into Wordpress and give it some great possible outcomes. Don&#39;t worry, be happy. There is a superb ready-made implementation of Foundation 5 and Wordpress in both CSS and SASS distributions called [JointsWP][joints-wp], which gives us a terrific head start. Anything like that is going to add some more includes and loops for more maze to amazing but it is well worth the effort to learn the ropes.
+Foundation 5, a top responsive framework, can shoehorn into Wordpress and give it some great possible outcomes. Don&#39;t worry, be happy. There is a superb ready-made implementation of Foundation 5 and Wordpress in both CSS and SASS distributions called [JointsWP][jointswp], which gives us a terrific head start. Anything like that is going to add some more includes and loops for more maze to amazing but it is well worth the effort to learn the ropes.
 
-[joints-wp]: http://jointswp.com
+[jointswp]: http://jointswp.com
