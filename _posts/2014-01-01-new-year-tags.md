@@ -3,7 +3,7 @@ layout:    post
 title:     Tag, The New Year 2014 Is It
 excerpt:   How built-in post tags can power better search.
 date:      2014-01-01 21:05:59
-published: false
+published: true
 category:  jekyll
 tags:      jekyll
 ---
