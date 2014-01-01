@@ -1,7 +1,7 @@
 airdisa.github.io
 =================
 
-Stable: 0.3.0
+Stable: 0.4.0
 -------------
 
 @AirDisa Jekyll Website for GitHub.io
@@ -9,6 +9,7 @@ Stable: 0.3.0
 Changelog
 ---------
 
+* 2013-12-31 Implemented related\_posts LSI
 * 2013-12-30 Implemented \_drafts
 * 2013-12-29 Implemented pagination
 * 2013-12-24 Initial commit
@@ -60,13 +61,21 @@ Directory Structure
 Install Jekyll
 --------------
 
+# => Use sudo when needed
+
 ~ $ gem install jekyll
 
-~ $ jekyll new gh-pages
+~ $ jekyll new project\_directory
 
-~ $ cd gh-pages
+~ $ cd project\_directory
 
-~ $ vim # => Use sudo vim if needed
+~ $ vim # => or emacs
+
+
+Install JSON
+------------
+
+~ $ gem install json
 
 
 Jekyll Build
@@ -76,9 +85,10 @@ Jekyll Build
 
 Run the server
 
-~ $ jekyll server     # => Browse http://localhost:3000
+~ $ jekyll server # => Browse http://localhost:3000
 
-~ $ jekyll server --drafts (option for preview)
+~ $ jekyll server --drafts # => Preview option, includes drafts
+
 
 As hosted by GitHub
 -------------------
