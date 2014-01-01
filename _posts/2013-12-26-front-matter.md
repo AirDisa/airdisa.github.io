@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Front Matter
-excerpt:    Jekyll templates their &#39;Front Matter&#39; meta code.
+excerpt:    I learned Jekyll in one day. You can too!
 date:       2013-12-26 10:36:55
 published:  true
 category:   jekyll
@@ -13,7 +13,7 @@ The Jekyll templates use a plain text file interface for populating website page
 {% highlight YAML %}
 ---
 layout: post
-title: First Post
+title: Front Matter
 excerpt: I learned Jekyll in one day. You can too!
 date: 2013-12-25 17:28:14
 published: true
