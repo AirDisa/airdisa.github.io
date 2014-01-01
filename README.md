@@ -81,7 +81,9 @@ Install JSON
 Jekyll Build
 ------------
 
-~ $ jekyll build # => Regenerate website files
+~ $ jekyll build # => Build website files
+
+~ $ jekyll build --lsi # => Build website files, with latent semantic indexing
 
 Run the server
 
