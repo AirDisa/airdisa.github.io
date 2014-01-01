@@ -61,7 +61,7 @@ Directory Structure
 Install Jekyll
 --------------
 
-# => Use sudo when needed
+#### Use sudo when needed
 
 ~ $ gem install jekyll
 
