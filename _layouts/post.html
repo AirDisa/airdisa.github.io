@@ -8,6 +8,10 @@ layout: default
 {{ content }}
 </div>
 
+<h3>Tags</h3>
+
 <p class="meta">{% for tag in page.tags %}<a href="/{{ tag }}.html">{{ tag }}</a><br />{% endfor %}</p>
+
+<h4>Latent Semantic Indexing</h4>
 
 <p class="meta">{% for post in site.related_posts %}<a href="{{ post.url }}">{{ post.title }}</a><br />{% endfor %}</p>

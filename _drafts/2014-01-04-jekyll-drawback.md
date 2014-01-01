@@ -2,7 +2,7 @@
 layout:    post
 title:     Jekyll Drawback
 excerpt:   In the land of roses and honey, got a bee sting
-date:      2014-01-03 19:13:58
+date:      2014-01-04 19:13:58
 published: false
 category:  jekyll
 tags:      jekyll
