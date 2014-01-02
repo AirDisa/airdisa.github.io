@@ -14,7 +14,7 @@ The [Jekyll plugin warning][warning] I came across states that GitHub runs Jekyl
 
 Host files for options such as available with .htaccess, are off-limits at GitHub. These restrictions had me wondering about redirecting, hoping for access to 301 server-response codes. These response codes are able to perform updating both user bookmarks and search engine listings. Other solutions exist though second-rate, such as that of using 0 time argument in meta refresh using HTML.
 
-What to do? There is always developing [architecture][architecture] that writes meta refresh, and other important files, into your static HTML. Plugins for meta refresh already exist and the thing to watch is this recent discussion about a [white-list][merged] of plugins. I have not yet fully absorbed all that is in this thread but it looks promising, definitely worth exploring and watching.
+What to do? There is always developing [architecture][architecture] that writes meta refresh into your static HTML. Plain plugins exist too. The thing I plan to watch is this recent thread about a plugin [white-list][merged]. I have not absorbed all that is in this thread yet but it looks promising, definitely worth exploring. In the end I may play host anyway, and proxy blog requests to GitHub.
 
 [warning]: http://jekyllrb.com/docs/plugins/
 [architecture]: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/
