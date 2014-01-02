@@ -18,9 +18,9 @@ I try to reserve my machine for running my business. It makes me irritable to ru
 <?php the_content( $more_link_text, $stripteaser ); ?>
 {% endhighlight %}
 
-[Wordpress documentation][codex] says the method the_content has to run in [the_loop][the_loop]. This is where Wordpress mazes and loops materialize. Madness ensues. PHP methods named the_content, params named stripteaser running in the_loop, you can only use this stuff where you expect post excerpts because as global sounding as the_content is, it is confined in scope.
+[Wordpress documentation][codex] says the method the\_content has to run in [the_loop][loop]. This is where Wordpress mazes and loops materialize. Madness ensues. PHP methods named the\_content, params named stripteaser running in the\_loop, you can only use this stuff where you expect post excerpts because as global sounding as the\_content is, it is confined in scope.
 
 Memorize this if you must but it sure is nice to be blissfully unaware. My sense of order became overwhelmed by the madness of it, I have resigned to detailed memorization. Let us not forget the gallery of criminally-coded themes and plugins. Instant base64 encoded links to casinos! There is rationale (excuses) behind everything but Jekyll is a such a thing of beauty compared.
 
 [codex]: http://codex.wordpress.org/the_content
-[the_loop]: http://codex.wordpress.org/The_Loop
+[loop]: http://codex.wordpress.org/The_Loop
