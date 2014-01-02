@@ -12,6 +12,6 @@ Taking your Jekyll to the next level in the most painless way probably means tra
 
 If anyone is going to leverage external API it is going to be my choosing. Something I should probably write is a translator or pre-processor of files that takes place before Jekyll build, like encoding html entities so I can write with apostrophes and quotes more naturally. It is just an idea and I like the effect writing without them, naturally.
 
-I might look into a plugin where the only requirement is a Gem I already know: Nokogiri. I cringe thinking on code that relies on other code I might not know. I picture litered machines as though they are a Sargasso Sea of software, remnants of bits barely used or never used at all. Some installations go haywire and have to be aborted. It wastes so much time I like a machine stripped bare.
+I might look into a plugin where the only requirement is a Gem I already know: Nokogiri. I cringe thinking on code that relies on other code I might not know. I picture littered machines as though they are a Sargasso Sea of software, remnants of bits barely used or never used at all. Some installations go haywire and have to be aborted. It wastes so much time I like a machine stripped bare.
 
 [jekyll-plugins]: http://jekyllrb.com/docs/plugins/

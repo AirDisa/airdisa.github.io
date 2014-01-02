@@ -1,7 +1,7 @@
 airdisa.github.io
 =================
 
-Stable: 0.4.0
+Stable: 0.5.0
 -------------
 
 @AirDisa Jekyll Website for GitHub.io
@@ -9,6 +9,7 @@ Stable: 0.4.0
 Changelog
 ---------
 
+* 2013-01-02 Implemented .gitignore
 * 2013-12-31 Implemented related\_posts LSI
 * 2013-12-30 Implemented \_drafts
 * 2013-12-29 Implemented pagination
@@ -29,7 +30,7 @@ Directory Structure
 ------------------
 
     _drafts/
-      2014-12-31      # Drafts staged for preview
+      .gitignore      # Drafts staged for preview, ignored
 
     _layouts/         
       default.html    # Default layout template
