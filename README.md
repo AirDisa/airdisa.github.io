@@ -1,7 +1,7 @@
 airdisa.github.io
 =================
 
-Stable: 0.5.0
+Stable: 0.6.0
 -------------
 
 @AirDisa Jekyll Website for GitHub.io
@@ -9,6 +9,7 @@ Stable: 0.5.0
 Changelog
 ---------
 
+* 2013-01-04 Integrated LSI build
 * 2013-01-02 Implemented .gitignore
 * 2013-12-31 Implemented related\_posts LSI
 * 2013-12-30 Implemented \_drafts
@@ -25,12 +26,13 @@ What's inside?
 * YAML
 * JSON
 * Ruby
+* Latent Semantic Indexing
 
 Directory Structure
 ------------------
 
     _drafts/
-      .gitignore      # Drafts staged for preview, ignored
+      .gitignore      # Drafts staged for preview, git ignored
 
     _layouts/         
       default.html    # Default layout template
@@ -39,6 +41,7 @@ Directory Structure
     _posts/         
       2013-12-24.md   # Initial post, title removed here for brevity
       2014-01-01.md   # Post for 2014, initially created as a draft
+      etc.
 
     _site/             
       css/            # Generated CSS files by Jekyll build
@@ -49,13 +52,13 @@ Directory Structure
 
     css/
       main.css        # Sitewide CSS
-      syntax.css      # Code snippet highlight Pygments markdown CSS
+      syntax.css      # Snippet highlight Pygments markdown CSS
 
     _config.yml       # Jekyll options
     github.html       # Github topic category index
     index.html        # Index, now paginated
     jekyll.html       # Jekyll topic category index
-    LICENSE           # Copyright status of FOSS
+    LICENSE           # Copyrighted content, otherwise FOSS
     wordpress.html    # Wordpress topic category index
 
 
@@ -93,7 +96,7 @@ Run the server
 ~ $ jekyll server --drafts # => Preview option, includes drafts
 
 
-As hosted by GitHub
+As hosted by GitHub Pages
 -------------------
 
 Browse: [http://airdisa.github.io](http://airdisa.github.io)
