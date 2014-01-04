@@ -19,21 +19,17 @@
 
         <div class="site">
           <div class="header">
-            <h1 class="title"><a href="/">Disa Johnson @AirDisa</a></h1>
-            <a class="extra" href="/jekyll.html">cat: jekyll</a>
+            <h1 class="title"><a href="/">@AirDisa (Disa Johnson)</a></h1>
+            <a class="extra" href="/jekyll.html">current cat: jekyll</a>
           </div>
 
           <h2>Jekyll Drawback</h2>
 <p class="meta">02 Jan 2014</p>
 
 <div class="post">
-<p>It works! There is one small caveat that I had seen hints of before committing all this time to learning and running Jekyll, like with scissors in my hands. The issue is not a deal breaker, merely a complication. That is why I remained comfortable moving forward. I am hoping I can think of a workaround. Hosting at GitHub means I lose control over important host files, settings and processes.</p>
+<p>It works! There is one caveat. I had seen hints of this before committing my time to learning and running Jekyll, like with scissors in my hands and it not a deal breaker. It is merely a complication which is why I remained comfortable moving forward. I am hoping I can implement one of a few workarounds milling about my brain. Hosting at GitHub means I lose control over important host files. The <a href="http://jekyllrb.com/docs/plugins/">Jekyll plugin warning</a> states that GitHub runs Jekyll with the --safe option, effectively disabling any runtime plugins from executing. This is a perfectly suitable measure for security at GitHub.</p>
 
-<p>The <a href="http://jekyllrb.com/docs/plugins/">Jekyll plugin warning</a> I came across states that GitHub runs Jekyll with the --safe option, effectively disabling any runtime plugins from executing. This is a perfectly suitable measure for security at GitHub, leaving the rest of us to scramble and think of something to make sure our files are static. Static sites are nice and fast and entirely static (except for JavaScript).</p>
-
-<p>Host files for options such as available with .htaccess, are off-limits at GitHub. These restrictions had me wondering about redirecting, hoping for access to 301 server-response codes. These response codes are able to perform updating both user bookmarks and search engine listings. Other solutions exist though second-rate, such as that of using 0 time argument in meta refresh using HTML.</p>
-
-<p>What to do? There is always developing <a href="http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/">architecture</a> that writes meta refresh into your static HTML. Plain plugins exist too. The thing I plan to watch is this recent thread about a plugin <a href="https://github.com/jekyll/jekyll/pull/1657">white-list</a>. I have not absorbed all that is in this thread yet but it looks promising, definitely worth exploring. In the end I may play host anyway, and proxy blog requests to GitHub.</p>
+<p>We must make sure our files deliver what we intend as purely static files. Static sites are at least faster, no question. Options I miss are available when .htaccess directives are adhered to, which are definitely off-limits at GitHub. These restrictions had me wondering about applying 301 server-response codes to move pages, code that both updates user bookmarks and search engine listings. No such early luck, what to do? I can always develop <a href="http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/">architecture</a> that writes meta refresh into static HTML. Then there is this thread about a plugin <a href="https://github.com/jekyll/jekyll/pull/1657">white-list</a> which looks promising. I may host anyway and proxy GitHub for flat files.</p>
 
 </div>
 
@@ -43,29 +39,29 @@
 
 <h4>Latent Semantic Indexing</h4>
 
-<p class="meta"><a href="/github/2013/12/25/get-github-going.html">Get GitHub Going</a><br /><a href="/jekyll/2014/01/01/new-year-tags.html">Tag, The New Year 2014 Is It</a><br /><a href="/jekyll/2013/12/28/jekyll-plugins.html">Jekyll Plugins</a><br /></p>
+<p class="meta"><a href="/jekyll/2013/12/28/jekyll-plugins.html">Jekyll Plugins</a><br /><a href="/jekyll/2013/12/30/pagination-plugin.html">Jekyll Pagination Plugin</a><br /><a href="/github/2013/12/25/get-github-going.html">Get GitHub Going</a><br /></p>
 
 
           <div class="footer">
             <div class="contact">
               <p>
+                Twitter<br />
                 GitHub<br />
                 Report Card<br />
-                Twitter<br />
                 Google+<br />
-                Facebook<br />
                 LinkedIn<br />
+                Facebook<br />
                 Rdio<br />
               </p>
             </div>
             <div class="contact">
               <p>
+                <a href="https://twitter.com/airdisa">twitter.com/AirDisa</a><br />
                 <a href="https://github.com/airdisa">github.com/AirDisa</a><br />
                 <a href="http://osrc.dfm.io/airdisa">osrc.dfm.io/airdisa</a><br />
-                <a href="https://twitter.com/airdisa">twitter.com/AirDisa</a><br />
                 <a href="http://airdisa.com/+">google.com/DisaJohnson</a><br />
-                <a href="https://www.facebook.com/disa.johnson">facebook.com/disa.johnson</a><br />
                 <a href="http://www.linkedin.com/in/disajohnson">linkedin.com/in/disajohnson</a><br />
+                <a href="https://www.facebook.com/disa.johnson">facebook.com/disa.johnson</a><br />
                 <a href="http://www.rdio.com/people/AirDisa/">rdio.com/people/AirDisa</a><br />
               </p>
             </div>

@@ -8,19 +8,15 @@ category:  wordpress
 tags:      wordpress
 ---
 
-As mentioned before, you are bound to run into Wordpress during your life as a developer. If you are lucky, you get to avoid Wordpress horror, or you become so familiar with it that it no longer haunts you. I find little room for life in between, myself. I think I was comfortable knowing nothing about Wordpress. Those days were numbered. I have had to begin thinking on the opposite side of the spectrum.
+As mentioned before, you are bound to run into Wordpress during your life as a developer. If you are lucky, you get to avoid Wordpress. You can always learn it and become familiar enough with the horror that it no longer frightens you. I found little room for life in between once the madness started. I think I was comfortable knowing nothing about Wordpress. Those days were numbered. I had to begin thinking on the opposite side of the spectrum. Here are some nits that I will complain about. Finding a good work flow can be extremely time-consuming when I plan on doing anything more complicated than what can be done with the built-in editor.
 
-Here are some nits that I will complain about. Finding a good work flow can be extremely time-consuming if you are doing anything more complicated than what an be done with the built-in code editor. Even so, the editor only offers clumsy going. When I code a new theme or plugin and Wordpress is not installed locally, I quickly pay a time toll tax.
-
-I try to reserve my machine for running my business. It makes me irritable to run anything that is not related to that essential set of tasks. A development machine can live too close to the edge, where project problems might interfere with day-to-day operations. When work warrants it, then I need to install something. The point is I do not *want* to install anything.
+The editor is clumsy going. When I code a theme or plugin and Wordpress is not installed, I pay a time toll tax. I successfully avoided installing it as yet and the more I get related work, the more I can no longer avoid installing and running it on a machine. You still need to browse Wordpress. The efficiency you buy by having it installed is that you no longer need to wait for processing uploads of the zip archive it wants for themes and plugins. I like hot fixing code, so this suits my workflow fine. I do not enjoy the hassle of setting up Wordpress or anything I am not personally committed to using, except clients demand it.
 
 {% highlight php %}
 <?php the_content( $more_link_text, $stripteaser ); ?>
 {% endhighlight %}
 
-[Wordpress documentation][codex] says the method the\_content has to run in [the_loop][loop]. This is where Wordpress mazes and loops materialize. Madness ensues. PHP methods named the\_content, params named stripteaser running in the\_loop, you can only use this stuff where you expect post excerpts because as global sounding as the\_content is, it is confined in scope.
-
-Memorize this if you must but it sure is nice to be blissfully unaware. My sense of order became overwhelmed by the madness of it, I have resigned to detailed memorization. Let us not forget the gallery of criminally-coded themes and plugins. Instant base64 encoded links to casinos! There is rationale (excuses) behind everything but Jekyll is a such a thing of beauty compared.
+[Wordpress documentation][codex] says the\_content method has to run in [the_loop][loop]. This is where for me Wordpress turns into a carnival, complete with laughing clowns. There is nothing scarier than evil clowns. I often run away leaving my frenzied code behind to return later. As global sounding as the\_content is, it is confined in scope. Params could be better named than stripteaser. There is rationale (excuses) behind everything Wordpress does but Jekyll is a such a thing of beauty compared. Learn Wordpress if you need in order to work it. It sure is nice to be blissfully unaware. Let us not forget free plugins you can install. Instant base64 encoded links to casinos!
 
 [codex]: http://codex.wordpress.org/the_content
 [loop]: http://codex.wordpress.org/The_Loop
