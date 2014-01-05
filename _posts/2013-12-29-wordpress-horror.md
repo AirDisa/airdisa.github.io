@@ -16,7 +16,7 @@ The editor is clumsy going. When I code a theme or plugin and Wordpress is not i
 <?php the_content( $more_link_text, $stripteaser ); ?>
 {% endhighlight %}
 
-[Wordpress documentation][codex] says the\_content method has to run in [the\_loop][loop]. This is where for me Wordpress turns into a carnival, complete with laughing clowns. There is nothing scarier than evil clowns. I often run away leaving my frenzied code behind to return later. As global sounding as the\_content is, it is confined in scope. Params could be better named than stripteaser. There is rationale (excuses) behind everything Wordpress does but Jekyll is a such a thing of beauty compared. Learn Wordpress if you need in order to work it. It sure is nice to be blissfully unaware. Let us not forget free plugins you can install. Instant base64 encoded links to casinos!
+[Wordpress documentation][codex] says the\_content method has to run in [the\_loop][loop]. This is where for me Wordpress turns into a carnival, complete with laughing clowns. Params could be better named than stripteaser. I run away leaving frenzied code behind. There is nothing scarier than evil clowns. As global sounding as the\_content is, it is confined in scope. So I return to their rationale (excuses) behind everything Wordpress does. Jekyll is a such a thing of beauty compared. Learn Wordpress if you need in order to work. It sure is nice to be blissfully unaware. Let us not forget free plugins with base64 encoded hidden links to casinos!
 
 [codex]: http://codex.wordpress.org/the_content
 [loop]: http://codex.wordpress.org/The_Loop
