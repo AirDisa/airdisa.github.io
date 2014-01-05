@@ -10,7 +10,7 @@ tags:       jekyll
 
 The Jekyll templates use a plain text file interface for populating website pages dynamically, and it is got blog aware features for coders to take advantage of. The idea is powerful and simple enough to leverage virtually any programming skills fast. If you know Ruby you can take it a lot further. Jekyll dynamically translates blocks of plain text &#39;[Front Matter][front-matter]&#39; to static files. People who do not code might ask why. Why code something from scratch when instead you can go with ready-made Wordpress?
 
-{% highlight YAML %}
+{% highlight yaml %}
 ---
 layout: post
 title: Front Matter
