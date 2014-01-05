@@ -26,10 +26,10 @@ What's inside?
 * YAML
 * JSON
 * Ruby
-* Latent Semantic Indexing
+* Latent Semantic Indexing (GitHub Pages requires a [workaround](http://www.trottercashion.com/2011/04/11/use-git-plumbing-for-more-awesome-github-pages.html))
 
 Directory Structure
-------------------
+-------------------
 
     _drafts/
       .gitignore      # Drafts staged for preview, git ignored
@@ -97,7 +97,7 @@ Run the server
 
 
 As hosted by GitHub Pages
--------------------
+-------------------------
 
 Browse: [http://airdisa.github.io](http://airdisa.github.io)
 
