@@ -4,19 +4,7 @@ airdisa.github.io
 Stable: 0.6.0
 -------------
 
-@AirDisa Jekyll Website for GitHub.io
-
-Changelog
----------
-
-* 2013-01-04 Integrated LSI build
-* 2013-01-02 Implemented .gitignore
-* 2013-12-31 Implemented related\_posts LSI
-* 2013-12-30 Implemented \_drafts
-* 2013-12-29 Implemented pagination
-* 2013-12-24 Initial commit
-
-Code is FOSS unless otherwise cited. Content is protected.
+Jekyll Website for @AirDisa.GitHub.io
 
 What's inside?
 --------------
@@ -26,7 +14,7 @@ What's inside?
 * YAML
 * JSON
 * Ruby
-* Latent Semantic Indexing (GitHub Pages requires a [workaround](http://www.trottercashion.com/2011/04/11/use-git-plumbing-for-more-awesome-github-pages.html))
+* Latent Semantic Indexing (potential GitHub Pages [workaround](http://www.trottercashion.com/2011/04/11/use-git-plumbing-for-more-awesome-github-pages.html))
 
 Directory Structure
 -------------------
@@ -39,7 +27,7 @@ Directory Structure
       post.html       # Post layout template
 
     _posts/         
-      2013-12-24.md   # Initial post, title removed here for brevity
+      2013-12-24.md   # Initial post sans title for brevity
       2014-01-01.md   # Post for 2014, initially created as a draft
       etc.
 
@@ -60,6 +48,19 @@ Directory Structure
     jekyll.html       # Jekyll topic category index
     LICENSE           # Copyrighted content, otherwise FOSS
     wordpress.html    # Wordpress topic category index
+
+
+Changelog
+---------
+
+* 2013-01-04 Integrated LSI build
+* 2013-01-02 Implemented .gitignore
+* 2013-12-31 Implemented related\_posts LSI
+* 2013-12-30 Implemented \_drafts
+* 2013-12-29 Implemented pagination
+* 2013-12-24 Initial commit
+
+Code is FOSS unless otherwise cited. Content is protected.
 
 
 Install Jekyll
