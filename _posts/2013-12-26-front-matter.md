@@ -24,5 +24,5 @@ tags: jekyll
 
 The answer can only lie in your love for learning code. You either love it, or not. There is no good reason and only that rationality to take the time to learn this stuff when you can literally fire up Wordpress and write, like what writers do. Learning to code takes perseverance and concentration. Front matter is simple enough that it can serve for getting acquainted with further coding. Jekyll uses [Redcarpet][red-carpet] for markdown which gently gets into trickier business (where the dynamic power really is). Check it out!
 
-[red-carpet]: https://github.com/vmg/redcarpet
 [front-matter]: http://jekyllrb.com/docs/frontmatter/
+[red-carpet]: https://github.com/vmg/redcarpet
