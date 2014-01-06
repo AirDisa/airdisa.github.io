@@ -100,7 +100,7 @@ Run the server
 As hosted by GitHub Pages
 -------------------------
 
-When hosting GitHub Pages, Latent Semantic Indexing will need a [workaround](http://www.trottercashion.com/2011/04/11/use-git-plumbing-for-more-awesome-github-pages.html))
+When hosting GitHub Pages, Latent Semantic Indexing will need a [workaround](http://www.trottercashion.com/2011/04/11/use-git-plumbing-for-more-awesome-github-pages.html)
 
 Browse: [http://airdisa.github.io](http://airdisa.github.io)
 
