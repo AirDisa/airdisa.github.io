@@ -16,6 +16,13 @@ What's inside?
 * Ruby
 * Latent Semantic Indexing
 
+
+Known Issues
+------------
+
+LSI works only with local builds # => Not as hosted by GitHub Pages
+
+
 Directory Structure
 -------------------
 
