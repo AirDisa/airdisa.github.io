@@ -1,7 +1,7 @@
 name: Disa Johnson @AirDisa
 markdown: redcarpet
 pygments: true
-paginate: 5
+paginate: 7
 paginate_path: "pg/:num"
 port: 3000
 lsi: true
