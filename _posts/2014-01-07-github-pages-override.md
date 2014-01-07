@@ -21,7 +21,7 @@ pygments: true
 source: your top-level directory
 {% endhighlight %}
 
-It makes sense for security reasons to run Jekyll build in safe mode. It also makes sense to disable the top-level directory option so your site works. It makes sense to disable LSI and pygments for their processing hardship. In the case of LSI, there are Linux package dependencies too. I read through these warnings quickly around Christmas time, when Jekyll was like a present under the repo tree. I was having so much fun that I wrongly presumed I could run build with LSI locally, then git push. Not so. I neglected to see in my head they would still build and overwrite. Once that became clear, I came across this [Rakefile][rakefile] workaround:
+It makes sense for security reasons to run Jekyll build in safe mode. It also makes sense to override the top-level directory option so your site works. It makes sense to disable LSI and pygments for their processing hardship. In the case of LSI, there are Linux package dependencies too. I read through these warnings quickly around Christmas time, when Jekyll was like a present under the repo tree. I was having so much fun that I wrongly presumed I could run build with LSI locally, then git push. Not so. I neglected to see in my head they would still build and overwrite. Once that became clear, I came across this [Rakefile][rakefile] workaround:
 
 {% highlight ruby %}
 require 'fileutils'
@@ -29,7 +29,7 @@ require 'fileutils'
     task :publish do
       FileUtils.rm_rf('/tmp/airdisa-index')
       ENV['GIT_INDEX_FILE'] = '/tmp/airdisa-index'
-      sh "jekyll --lsi generated"
+      sh "jekyll build generated"
       sh "cd generated && GIT_DIR=../.git git add ."
       tsha = `git write-tree`.chomp
       csha = `echo 'updated' | git commit-tree #{tsha}`.chomp
@@ -39,7 +39,7 @@ require 'fileutils'
     end
 {% endhighlight %}
 
-This looks fun to implement, although a fairly convoluted. The idea centers around a forced push with a tmp branch which contains an alternate local build; a generated folder with LSI intact. It changes git repo references so the GitHub host points to the branch file content. I like it as a solution for this, although I am wary of putting it in place thinking it will work only to find it will not, now or some future in time. It still looks like fun to try and learn from. As convoluted, it is not reliable enough to serve a site that could exponentially scale. I can try it until it is time for fun with Octopress 3.0:
+This looks fun to implement, although fairly convoluted and I edited it to add the build directive plus remove the --lsi flag since I have it in my \_config.yml options. I have not yet tried this, still searching for a solution. The idea centers around a forced push with a tmp alternate local build to a generated LSI folder. It changes git repo references in the tree so GitHub Pages point to alt branch file content. I like it as a hacker solution for this, though I am wary it might not work now, or some future time. It could have scaling problems with enough content where something might not make the trip. It still looks like fun to learn from then explore  Octopress 3.0:
 
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/anandrajaram">@anandrajaram</a> It’s under active development, but the current release is about to be replaced. Use Jekyll, and check us out again at 3.0.</p>&mdash; Octopress (@octopress) <a href="https://twitter.com/octopress/statuses/416396115861585920">December 27, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

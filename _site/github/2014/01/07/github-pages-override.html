@@ -39,14 +39,14 @@
 <span class="l-Scalar-Plain">source</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">your top-level directory</span>
 </code></pre></div>
 
-<p>It makes sense for security reasons to run Jekyll build in safe mode. It also makes sense to disable the top-level directory option so your site works. It makes sense to disable LSI and pygments for their processing hardship. In the case of LSI, there are Linux package dependencies too. I read through these warnings quickly around Christmas time, when Jekyll was like a present under the repo tree. I was having so much fun that I wrongly presumed I could run build with LSI locally, then git push. Not so. I neglected to see in my head they would still build and overwrite. Once that became clear, I came across this <a href="http://www.trottercashion.com/2011/04/11/use-git-plumbing-for-more-awesome-github-pages.html">Rakefile</a> workaround:</p>
+<p>It makes sense for security reasons to run Jekyll build in safe mode. It also makes sense to override the top-level directory option so your site works. It makes sense to disable LSI and pygments for their processing hardship. In the case of LSI, there are Linux package dependencies too. I read through these warnings quickly around Christmas time, when Jekyll was like a present under the repo tree. I was having so much fun that I wrongly presumed I could run build with LSI locally, then git push. Not so. I neglected to see in my head they would still build and overwrite. Once that became clear, I came across this <a href="http://www.trottercashion.com/2011/04/11/use-git-plumbing-for-more-awesome-github-pages.html">Rakefile</a> workaround:</p>
 
 <div class="highlight"><pre><code class="ruby"><span class="nb">require</span> <span class="s1">&#39;fileutils&#39;</span>
 
     <span class="n">task</span> <span class="ss">:publish</span> <span class="k">do</span>
       <span class="no">FileUtils</span><span class="o">.</span><span class="n">rm_rf</span><span class="p">(</span><span class="s1">&#39;/tmp/airdisa-index&#39;</span><span class="p">)</span>
       <span class="no">ENV</span><span class="o">[</span><span class="s1">&#39;GIT_INDEX_FILE&#39;</span><span class="o">]</span> <span class="o">=</span> <span class="s1">&#39;/tmp/airdisa-index&#39;</span>
-      <span class="n">sh</span> <span class="s2">&quot;jekyll --lsi generated&quot;</span>
+      <span class="n">sh</span> <span class="s2">&quot;jekyll build generated&quot;</span>
       <span class="n">sh</span> <span class="s2">&quot;cd generated &amp;&amp; GIT_DIR=../.git git add .&quot;</span>
       <span class="n">tsha</span> <span class="o">=</span> <span class="sb">`git write-tree`</span><span class="o">.</span><span class="n">chomp</span>
       <span class="n">csha</span> <span class="o">=</span> <span class="sb">`echo &#39;updated&#39; | git commit-tree </span><span class="si">#{</span><span class="n">tsha</span><span class="si">}</span><span class="sb">`</span><span class="o">.</span><span class="n">chomp</span>
@@ -56,7 +56,7 @@
     <span class="k">end</span>
 </code></pre></div>
 
-<p>This looks fun to implement, although a fairly convoluted. The idea centers around a forced push with a tmp branch which contains an alternate local build; a generated folder with LSI intact. It changes git repo references so the GitHub host points to the branch file content. I like it as a solution for this, although I am wary of putting it in place thinking it will work only to find it will not, now or some future in time. It still looks like fun to try and learn from. As convoluted, it is not reliable enough to serve a site that could exponentially scale. I can try it until it is time for fun with Octopress 3.0:</p>
+<p>This looks fun to implement, although fairly convoluted and I edited it to add the build directive plus remove the --lsi flag since I have it in my _config.yml options. I have not yet tried this, still searching for a solution. The idea centers around a forced push with a tmp alternate local build to a generated LSI folder. It changes git repo references in the tree so GitHub Pages point to alt branch file content. I like it as a hacker solution for this, though I am wary it might not work now, or some future time. It could have scaling problems with enough content where something might not make the trip. It still looks like fun to learn from then explore  Octopress 3.0:</p>
 
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/anandrajaram">@anandrajaram</a> It’s under active development, but the current release is about to be replaced. Use Jekyll, and check us out again at 3.0.</p>&mdash; Octopress (@octopress) <a href="https://twitter.com/octopress/statuses/416396115861585920">December 27, 2013</a></blockquote>
 
