@@ -8,7 +8,7 @@ category:  security
 tags:      security
 ---
 
-People have asked me on Twitter and in person about password security, that they sometimes feel alright about their password before reading something that scares the living daylight out of them. Yes. Passwords are easy to crack with computing power and a little foreknowledge using something like Hashcat. There is no secure password, given enough computing power and in the hands of someone with the knowledge and determination. What to do? The answer lies in doing the best you can to thwart wide network password attacks. Hackers want easy access to accounts with extremely poor passwords. They will use one service to break into another service.
+People have asked me on Twitter and in person about password security, that they sometimes feel alright about their password before reading something that scares the living daylight out of them. Yes. Passwords are easy to crack with computing power and a little foreknowledge using something like Hashcat. There is no secure password, given enough computing power and in the hands of someone with the knowledge and determination. What to do? The answer lies in doing the best you can to thwart wide network password attacks. Hackers want easy access to accounts with extremely poor passwords. They will use one service to break into another service.  Listen to a recent [Fresh Air interview][freshair-interview] on the topic.
 
 Passwords may no longer be needed a few years from now. Biologically based authentication will go mainstream which is going to be well received news. One which promising is a combination of voice print and matching word challenges out loud. Even that is not 100% secure. A simple voice recording will do, although additional software is required to pass the challenges. Imagine screen readers which might be modified to repeat word entry, although this could be scanned for in the challenge session so the cat-and-mouse game continues beteween hacker and system. Nothing is truly secure yet, not even biological authentication.
 
@@ -21,3 +21,4 @@ Think of a recipe that essentially keys off the one thing that is going to be un
 To [translate letters][translator] is basic puzzle stuff.
 
 [translator]: http://moonatnoon.com/puzzles/reference/a1b2z26.html
+[freshair-interview]: http://www.npr.org/2014/01/14/262387292/what-everyone-needs-to-know-about-todays-cyberthreats
