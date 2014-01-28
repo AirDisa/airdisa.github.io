@@ -23,23 +23,23 @@
   </head>
   <body class="yui3-skin-sam">
     <script>
-      YUI({
-          combine: false,
-          filter: 'DEBUG',
-          ignore: ['cssbutton']
-      }).use('panel', function (Y) {
-          'use strict';
-          //Y.WidgetButtons.CLASS_NAMES.button = 'pure-button';
-          new Y.Panel({
-              bodyContent: '<a href=\"http://' + location.host + '/github.html\">GitHub</a><br /><a href=\"http://' + location.host + '/jekyll.html\">Jekyll</a><br /><a href=\"http://' + location.host + '/security.html\">Security</a><br /><a href=\"http://' + location.host + '/github.html\">GitHub</a>',
-              buttons: [{
-                  action: 'hide',
-                  classNames: 'pure-button pure-button-primary',
-                  label: 'Close'
-              }],
-              headerContent: 'Cat Browser'
-          }).render();
-      });
+//      YUI({
+//          combine: false,
+//          filter: 'DEBUG',
+//          ignore: ['cssbutton']
+//      }).use('panel', function (Y) {
+//          'use strict';
+//          //Y.WidgetButtons.CLASS_NAMES.button = 'pure-button';
+//          new Y.Panel({
+//              bodyContent: '<a href=\"http://' + location.host + '/github.html\">GitHub</a><br /><a href=\"http://' + location.host + '/jekyll.html\">Jekyll</a><br /><a href=\"http://' + location.host + '/security.html\">Security</a><br /><a href=\"http://' + location.host + '/github.html\">GitHub</a>',
+//              buttons: [{
+//                  action: 'hide',
+//                  classNames: 'pure-button pure-button-primary',
+//                  label: 'Close'
+//              }],
+//              headerContent: 'Cat Browser'
+//          }).render();
+//      });
     </script>
     <div class="site">
       <div class="header">
@@ -51,7 +51,7 @@
 <p class="meta">23 Jan 2014</p>
 
 <div class="post">
-<p>Publishing LSI using the simplest possible configuration, to me this means not deviating from a standard Jekyll implementation. Unfortunately, this also means that I would like the same codebase at my own location that resides at GitHub. The thing that will display differently, is of course the LSI which will not be included in the build process at GitHub versus what I can do locally. So I came up with a temporary solution while I mull over the rather snaky alternate solution that I came across in my search. I am not altogether happy with either thing but at least by publishing LSI locally, I can add a remote reference to it. I wrote a straight forward JavaScript to add a link when host is GitHub. Visitors to GitHub Pages will see the link.</p>
+<p>Publishing LSI through Jekyll works locally while it does not at GitHub Pages because they run the build process without plugins. My personal preference is not deviating from a standard Jekyll implementation. This means that LSI will display locally and a only list of posts by date will appear at GitHub Pages. I am not altogether happy with a temporary solution I invoked as I mull over an alternate solution I came across in a search for something better. I wrote a straight forward JavaScript to link here when the host is GitHub.</p>
 
 </div>
 
@@ -59,9 +59,9 @@
 
 <p class="meta"><a href="/jekyll.html">jekyll</a><br /></p>
 
-<h4>Latent Semantic Indexing <script>if(location.host=='airdisa.github.io'){document.write('<a href=\"http://' + location.host + '/jekyll/2014/01/23/publishing-lsi.html\">?</a>');}</script></h4>
+<h4>Latent Semantic Indexing <script>if(location.host=='airdisa.github.io'){document.write('<a style=\"text-decoration:none;\" href=\"http://' + location.host + '/jekyll/2014/01/23/publishing-lsi.html\">?</a>');}</script></h4>
 
-<p class="meta"><a href="/github/2014/01/07/github-pages-override.html">GitHub Pages Override</a><br /><a href="/jekyll/2014/01/02/jekyll-drawback.html">Jekyll Drawback</a><br /><a href="/jekyll/2014/01/01/new-year-tags.html">Tag The New Year 2014! It Is It!</a><br /></p>
+<p class="meta"><a href="/github/2014/01/07/github-pages-override.html">GitHub Pages Override</a><br /><a href="/jekyll/2014/01/02/jekyll-drawback.html">Jekyll Drawback</a><br /><a href="/jekyll/2013/12/28/jekyll-plugins.html">Jekyll Plugins</a><br /></p>
 
 
       <div class="footer">
