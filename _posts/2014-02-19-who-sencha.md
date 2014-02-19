@@ -2,7 +2,7 @@
 layout:    post
 title:     Who Sencha?
 excerpt:   The Sencha framework has only one caveat!
-date:      2014-01-23 11:57:19
+date:      2014-02-19 11:57:19
 published: true
 category:  sencha
 tags:      sencha
