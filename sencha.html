@@ -1,0 +1,19 @@
+---
+layout:   default
+title:    Sencha posts
+excerpt:  Disa Johnson @AirDisa principally concerning software engineering ideas.
+category: sencha
+tags:     sencha
+---
+
+<div id="home">
+  <h1>Sencha Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% capture category %}{{ post.category }}{% endcapture %}
+        {% if category == 'sencha' %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><br />{{ post.excerpt }}</li>
+        {% endif %}
+    {% endfor %}
+  </ul>
+</div>
