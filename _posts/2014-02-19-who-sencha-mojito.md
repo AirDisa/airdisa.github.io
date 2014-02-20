@@ -1,7 +1,7 @@
 ---
 layout:    post
 title:     Who Sencha? Mojito?
-excerpt:   The Sencha framework has only one caveat!
+excerpt:   The Sencha framework has only one mosquito. Mojito?
 date:      2014-02-19 11:57:19
 published: true
 category:  sencha
