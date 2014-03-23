@@ -1,119 +1,147 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-   <title>Software by Disa Johnson @AirDisa</title>
-   <meta name="viewport" content="width=device-width">
-   <meta name="description" content="Disa Johnson @AirDisa principly concerning software engineering ideas.">
-   <meta name="keywords" content="github, jekyll, javascript, ruby, perl, disa, disa johnson, airdisa">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software by Disa Johnson @AirDisa</title>
+    <meta name="description" content="Disa Johnson @AirDisa principly concerning software engineering ideas.">
+    <meta name="keywords" content="github, jekyll, javascript, ruby, perl, disa, disa johnson, airdisa">
 
-   <!-- YUI Library -->
-    <script src="http://yui.yahooapis.com/3.14.1/build/yui/yui.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
 
    <!-- PureCSS Library -->
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="/css/pureblog-oldie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="/css/pureblog.css">
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+    <![endif]-->
 
-   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css">
-
-   <!-- Custom CSS -->
-   <link rel="stylesheet" href="/css/main.css">
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
 
   </head>
-  <body class="yui3-skin-sam">
-    <script>
-//      YUI({
-//          combine: false,
-//          filter: 'DEBUG',
-//          ignore: ['cssbutton']
-//      }).use('panel', function (Y) {
-//          'use strict';
-//          //Y.WidgetButtons.CLASS_NAMES.button = 'pure-button';
-//          new Y.Panel({
-//              bodyContent: '<a href=\"http://' + location.host + '/github.html\">GitHub</a><br /><a href=\"http://' + location.host + '/jekyll.html\">Jekyll</a><br /><a href=\"http://' + location.host + '/security.html\">Security</a><br /><a href=\"http://' + location.host + '/github.html\">GitHub</a>',
-//              buttons: [{
-//                  action: 'hide',
-//                  classNames: 'pure-button pure-button-primary',
-//                  label: 'Close'
-//              }],
-//              headerContent: 'Cat Browser'
-//          }).render();
-//      });
-    </script>
-    <div class="site">
-      <div class="header">
-        <h1 class="title"><a href="/">Disa Johnson @AirDisa</a></h1>
-        <a class="extra" href="/index.html">current cat: index</a>
-      </div>
-
-      <div id="home">
-  <h1>All Posts</h1>
-  <p class="author">Disa Johnson</p>
-  <ul class="posts">
+  <body>
     
-    <li><span class="date">25 Dec 2013</span> &raquo; <a href="/github/2013/12/25/get-github-going.html">Get GitHub Going</a><br />Best time to establish version control.</li>
-    
-    <li><span class="date">24 Dec 2013</span> &raquo; <a href="/jekyll/2013/12/24/using-jekyll.html">Using Jekyll</a><br />New! Powered by Jekyll. Got GitHub going.</li>
-    
-  </ul>
-</div>
-
-<!-- Pagination links -->
-
-<div class="pagination">
-  
-    <a href="/pg/2" class="previous">&laquo; Prev</a>
-  
-
-  
-    
-      <a href="/index.html">1</a>
-    
-  
-    
-      <a href="/pg/2">2</a>
-    
-  
-    
-      <em>3</em>
-    
-  
-
-  
-    <span>Next &raquo;</span>
-  
-</div>
-
-
-
-      <div class="footer">
-        <div class="contact">
-          <p>
-            Twitter<br />
-            GitHub<br />
-            Report Card<br />
-            Google+<br />
-            LinkedIn<br />
-            Facebook<br />
-            Rdio<br />
-            Wolfram|Alpha
-          </p>
-        </div>
-        <div class="contact">
-          <p>
-            <a href="https://twitter.com/airdisa">twitter.com/AirDisa</a><br />
-            <a href="https://github.com/airdisa">github.com/AirDisa</a><br />
-            <a href="http://osrc.dfm.io/airdisa">osrc.dfm.io/airdisa</a><br />
-            <a href="http://airdisa.com/+">google.com/DisaJohnson</a><br />
-            <a href="http://www.linkedin.com/in/disajohnson">linkedin.com/in/disajohnson</a><br />
-            <a href="https://www.facebook.com/disa.johnson">facebook.com/disa.johnson</a><br />
-            <a href="http://www.rdio.com/people/AirDisa/">rdio.com/people/AirDisa</a><br />
-            <a href="https://www.wolframalpha.com/input/?i=weather+forecast">Weather Forecast</a><br />
-          </p>
+    <div id="layout" class="pure-g"><!-- pure wrapper -->
+      <div class="sidebar pure-u-1 pure-u-med-1-5">
+        <div class="header">
+          <hgroup>
+            <h1 class="brand-title"><a style="color:white;" href="/">Disa Johnson @AirDisa</a></h1>
+            <h2 class="brand-tagline">Pure Jekyll Blog</h2>
+          </hgroup>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"> <a class="pure-button" href="/github.html">GitHub</a> </li>
+              <li class="nav-item"> <a class="pure-button" href="/jekyll.html">Jekyll</a> </li>
+              <li class="nav-item"> <a class="pure-button" href="/meteor.html">Meteor</a> </li>
+              <li class="nav-item"> <a class="pure-button" href="/security.html">Security</a> </li>
+              <li class="nav-item"> <a class="pure-button" href="/sencha.html">Sencha</a> </li>
+              <li class="nav-item"> <a class="pure-button" href="/wordpress.html">Wordpress</a> </li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </div>
 
+      <div class="content pure-u-1 pure-u-med-4-5"><!-- open content -->
+        <div class="site pure-u-1 pure-u-med-4-5"><!-- open site wrapper -->
+
+                      <div class="posts">
+            <h1 class="content-subhead">Recent Posts</h1>
+            <div id="home">
+            
+            <section class="post">
+              <header class="post-header">
+                <img class="post-avatar" alt="Disa Johnson&#x27;s avatar" height="48" width="48" src="/img/disajohnson.jpg">
+                <h2 class="post-title"><a href="/jekyll/2013/12/26/front-matter.html">Front Matter</a></h2>
+                <p class="post-meta"> <span class="date">26 Dec 2013</span> &raquo; <a class="post-author" href="/disa.html">Disa Johnson</a> under <a style="color:white;" class="post-category post-category-jekyll" href="/jekyll.html">jekyll</a> </p>
+              </header>
+              <div class="post-description"> <p> I learned Jekyll in one day. You can too! </p> </div>
+            </section>
+            
+            <section class="post">
+              <header class="post-header">
+                <img class="post-avatar" alt="Disa Johnson&#x27;s avatar" height="48" width="48" src="/img/disajohnson.jpg">
+                <h2 class="post-title"><a href="/github/2013/12/25/get-github-going.html">Get GitHub Going</a></h2>
+                <p class="post-meta"> <span class="date">25 Dec 2013</span> &raquo; <a class="post-author" href="/disa.html">Disa Johnson</a> under <a style="color:white;" class="post-category post-category-github" href="/github.html">github</a> </p>
+              </header>
+              <div class="post-description"> <p> Best time to establish version control. </p> </div>
+            </section>
+            
+            <section class="post">
+              <header class="post-header">
+                <img class="post-avatar" alt="Disa Johnson&#x27;s avatar" height="48" width="48" src="/img/disajohnson.jpg">
+                <h2 class="post-title"><a href="/jekyll/2013/12/24/using-jekyll.html">Using Jekyll</a></h2>
+                <p class="post-meta"> <span class="date">24 Dec 2013</span> &raquo; <a class="post-author" href="/disa.html">Disa Johnson</a> under <a style="color:white;" class="post-category post-category-jekyll" href="/jekyll.html">jekyll</a> </p>
+              </header>
+              <div class="post-description"> <p> New! Powered by Jekyll. Got GitHub going. </p> </div>
+            </section>
+            
+            </div>
+          </div>
+
+          <!-- Pagination links -->
+          
+          <div class="pagination">
+            
+              <a href="/pg/2" class="previous">&laquo; Prev</a>
+            
+
+            
+              
+                <a href="/index.html">1</a>
+              
+            
+              
+                <a href="/pg/2">2</a>
+              
+            
+              
+                <em>3</em>
+              
+            
+
+            
+              <span>Next &raquo;</span>
+            
+          </div>
+          
+
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                Twitter<br />
+                GitHub<br />
+                Report Card<br />
+                Google+<br />
+                LinkedIn<br />
+                Facebook<br />
+                Rdio<br />
+                Wolfram|Alpha
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://twitter.com/airdisa">twitter.com/AirDisa</a><br />
+                <a href="https://github.com/airdisa">github.com/AirDisa</a><br />
+                <a href="http://osrc.dfm.io/airdisa">osrc.dfm.io/airdisa</a><br />
+                <a href="http://airdisa.com/+">google.com/DisaJohnson</a><br />
+                <a href="http://www.linkedin.com/in/disajohnson">linkedin.com/in/disajohnson</a><br />
+                <a href="https://www.facebook.com/disa.johnson">facebook.com/disa.johnson</a><br />
+                <a href="http://www.rdio.com/people/AirDisa/">rdio.com/people/AirDisa</a><br />
+                <a href="https://www.wolframalpha.com/input/?i=weather+forecast">Weather Forecast</a><br />
+              </p>
+            </div>
+          </div>
+        </div><!-- end site wrapper -->
+      </div><!-- end content 3/4 wrapper -->
+    </div><!-- end pure wrapper -->
   </body>
 </html>
