@@ -1,19 +1,25 @@
 ---
 layout:   default
-title:    GitHub posts
+title:    Disa Johnson
 excerpt:  Disa Johnson @AirDisa principally concerning software engineering ideas.
-category: github
-tags:     github
+category: index
+tags:     github, jekyll, javascript, ruby, perl
 ---
 
-<div id="home">
-  <h1>GitHub Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      {% capture category %}{{ post.category }}{% endcapture %}
-        {% if category == 'github' %}
-          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><br />{{ post.excerpt }}</li>
-        {% endif %}
-    {% endfor %}
-  </ul>
-</div>
+          <div class="posts">
+            <h1 class="content-subhead">Disa Johnson</h1>
+            <div id="home">
+              <section class="post">
+                <header class="post-header">
+                  <img class="post-avatar" alt="Disa Johnson&#x27;s avatar" height="48" width="48" src="/img/disajohnson.jpg">
+                  <h2 class="post-title">Object-Oriented Programming</h2>
+                  <p class="post-meta"> <span class="date">{{ site.time | date_to_string }}</span> &raquo; Disa Johnson </p>
+                </header>
+                <div class="post-description">
+                  <p>
+                    To me, object-oriented programming and the MVC app framework has come to define modern software architecture on the Web. While aware of some of the alternates, the best reuse of code under the DRY principle is popular for good reason: organization. Since popularity also means more people will be programming in this style, it is important to write for others using the protocol they would come to expect and not something esoteric and foreign that would baffle them. Long gone are the protective programmer days, where people would hide their value in cryptic code. They still do that anyway haha.
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
