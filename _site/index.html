@@ -29,7 +29,11 @@
   </head>
   <body>
     
-    <div class="banner"> <h1 class="banner-head"> Object-Oriented Programming<br />Disa Johnson @AirDisa </h1> </div>
+    <script> if ((navigator.userAgent.match(/(iPhone|iPod|BlackBerry|Android.*Mobile|BB10.*Mobile|webOS|Windows CE|IEMobile|Opera Mini|Opera Mobi|HTC|LG-|LGE|SAMSUNG|Samsung|SEC-SGH|Symbian|Nokia|PlayStation|PLAYSTATION|Nintendo DSi)/i)) ) {
+      document.write('<h1> Object-Oriented Programming<br />Disa Johnson @AirDisa </h1>');
+      } else {
+      document.write('<div class=\"banner\"> <h1 class=\"banner-head\"> Object-Oriented Programming<br />Disa Johnson @AirDisa </h1> </div>'); }
+    </script>
     
     <div id="layout" class="pure-g"><!-- pure wrapper -->
       <div class="sidebar pure-u-1 pure-u-med-1-5">
