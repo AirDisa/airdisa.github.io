@@ -60,8 +60,9 @@ Directory Structure
 Changelog
 ---------
 
-* 2013-01-04 Integrated LSI build
-* 2013-01-02 Implemented .gitignore
+* 2014-04-04 Implemented Pure CSS Blog
+* 2014-01-04 Integrated LSI build
+* 2014-01-02 Implemented .gitignore
 * 2013-12-31 Implemented related\_posts LSI
 * 2013-12-30 Implemented \_drafts
 * 2013-12-29 Implemented pagination
