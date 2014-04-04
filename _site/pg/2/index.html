@@ -41,6 +41,7 @@
               <li class="nav-item"> <a class="pure-button" href="/github.html">GitHub</a> </li>
               <li class="nav-item"> <a class="pure-button" href="/jekyll.html">Jekyll</a> </li>
               <li class="nav-item"> <a class="pure-button" href="/meteor.html">Meteor</a> </li>
+              <li class="nav-item"> <a class="pure-button" href="/mobile.html">Mobile</a> </li>
               <li class="nav-item"> <a class="pure-button" href="/security.html">Security</a> </li>
               <li class="nav-item"> <a class="pure-button" href="/sencha.html">Sencha</a> </li>
               <li class="nav-item"> <a class="pure-button" href="/wordpress.html">Wordpress</a> </li>
@@ -55,6 +56,15 @@
                       <div class="posts">
             <h1 class="content-subhead">Recent Posts</h1>
             <div id="home">
+            
+            <section class="post">
+              <header class="post-header">
+                <img class="post-avatar" alt="Disa Johnson&#x27;s avatar" height="48" width="48" src="/img/disajohnson.jpg">
+                <h2 class="post-title"><a href="/github/2014/01/07/github-pages-override.html">GitHub Pages Override</a></h2>
+                <p class="post-meta"> <span class="date">07 Jan 2014</span> &raquo; <a class="post-author" href="/disa.html">Disa Johnson</a> under <a style="color:white;" class="post-category post-category-github" href="/github.html">github</a> </p>
+              </header>
+              <div class="post-description"> <p> Latent Semantic Indexing gotcha </p> </div>
+            </section>
             
             <section class="post">
               <header class="post-header">
@@ -110,15 +120,6 @@
               <div class="post-description"> <p> My Wordpress horror? </p> </div>
             </section>
             
-            <section class="post">
-              <header class="post-header">
-                <img class="post-avatar" alt="Disa Johnson&#x27;s avatar" height="48" width="48" src="/img/disajohnson.jpg">
-                <h2 class="post-title"><a href="/jekyll/2013/12/28/jekyll-plugins.html">Jekyll Plugins</a></h2>
-                <p class="post-meta"> <span class="date">28 Dec 2013</span> &raquo; <a class="post-author" href="/disa.html">Disa Johnson</a> under <a style="color:white;" class="post-category post-category-jekyll" href="/jekyll.html">jekyll</a> </p>
-              </header>
-              <div class="post-description"> <p> Extend Jekyll with plugins. </p> </div>
-            </section>
-            
             </div>
           </div>
 
@@ -151,18 +152,11 @@
 
 
           <div class="footer">
-            <div class="contact">
-              <p>
-                Twitter<br />
-                GitHub<br />
-                Report Card<br />
-                Google+<br />
-                LinkedIn<br />
-                Facebook<br />
-                Rdio<br />
-                Wolfram|Alpha
-              </p>
-            </div>
+            <script>
+              if ((navigator.userAgent.match(/(iPhone|iPod|BlackBerry|Android.*Mobile|BB10.*Mobile|webOS|Windows CE|IEMobile|Opera Mini|Opera Mobi|HTC|LG-|LGE|SAMSUNG|Samsung|SEC-SGH|Symbian|Nokia|PlayStation|PLAYSTATION|Nintendo DSi)/i))) {
+                } else {
+                  document.write("<div class=\"contact\"> <p> Twitter<br /> GitHub<br /> Report Card<br /> Google+<br /> LinkedIn<br /> Facebook<br /> Rdio<br /> Wolfram|Alpha </p> </div>"); }
+            </script>
             <div class="contact">
               <p>
                 <a href="https://twitter.com/airdisa">twitter.com/AirDisa</a><br />
@@ -174,6 +168,11 @@
                 <a href="http://www.rdio.com/people/AirDisa/">rdio.com/people/AirDisa</a><br />
                 <a href="https://www.wolframalpha.com/input/?i=weather+forecast">Weather Forecast</a><br />
               </p>
+              <script>
+                if (mobile == true) {
+                  document.write("<p>Your mobile web experience powered by responsive design principles.");
+                  } else { document.write("This site is responsive which displays well on mobile devices.") }
+              </script>
             </div>
           </div>
         </div><!-- end site wrapper -->
