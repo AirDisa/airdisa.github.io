@@ -5,3 +5,5 @@ paginate: 7
 paginate_path: "pg/:num"
 port: 3000
 lsi: true
+exclude:
+  - specialthing.md
