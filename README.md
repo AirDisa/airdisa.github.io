@@ -1,7 +1,7 @@
 airdisa.github.io
 =================
 
-Stable: 0.6.0
+Stable: 0.7.0
 -------------
 
 Jekyll Website for @AirDisa.GitHub.io
@@ -33,7 +33,7 @@ Directory Structure
       default.html    # Default layout template
       post.html       # Post layout template
 
-    _posts/         
+    _posts/category         
       2013-12-24.md   # Initial post sans title for brevity
       2014-01-01.md   # Post for 2014, initially created as a draft
       etc.
@@ -60,6 +60,7 @@ Directory Structure
 Changelog
 ---------
 
+* 2014-04-05 Organized posts into folders
 * 2014-04-04 Implemented Pure CSS Blog
 * 2014-01-04 Integrated LSI build
 * 2014-01-02 Implemented .gitignore
