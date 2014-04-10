@@ -6,6 +6,7 @@ date:      2014-04-09 12:12:20
 published: true
 category:  security
 tags:      security
+updated:   2014-04-10 10:00:00
 ---
 
 The OpenSSL HeartBleed security flaw is a big developer bug that affects the ubiquitous TLS (transport layer for securely encrypted data exchange) used by websites, pretty much all of them doing anything like authentication which is anything like logging in. Sites like Twitter and Google are patched up and no longer vulnerable. It was Google researchers who uncovered the flaw in the first place. There is little question that hackers have can use it to compromise systems and we must assume they have done so.
