@@ -9,7 +9,7 @@ tags:      security
 updated:   2014-04-19 12:10:00
 ---
 
-The OpenSSL Heartbleed business is a security flaw so major that it affects pretty much all websites doing membership authentication and e-commerce. Google researchers uncovered it but the there is little question that hackers may have been using it to compromise systems since last November and we must assume they have done so with out own websites. A flaw in the OpenSSL Heartbleed handshake, a &quot;hello are you there, service?&quot; exchange meant to verify (or keep warm) connections.
+The OpenSSL Heartbleed business is a security flaw so major, that it affects pretty much all websites doing membership authentication and e-commerce. Google researchers uncovered it recently, but the there is little doubt that hackers have been using it to compromise systems since last November. We must assume they have done so with our own websites and get the fix in. The flaw is the OpenSSL Heartbleed handshake, a &quot;hello are you there, service?&quot; exchange meant to verify (or keep warm) connections was subject to spoofing.
 
 The flaw allows an attacker to retrieve up to 64k in the clear by spoofing its own request size, the Heartbleed transmits back what is meant to be the original message stored in its own memory, up to 64k. The black hat trick here is to spoof the size with a script as little as 1k and get back 64k. The message includes all the sensitive data you would expect to be encrypted. An attacker can generate as many spoofed requests as they like, enough to trick the system into giving up its actual security certificate key and leave behind no trace.
 
